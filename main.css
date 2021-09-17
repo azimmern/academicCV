@@ -1,0 +1,28 @@
+.blackandwhite {
+    filter: gray;
+    filter: grayscale(100%);
+}
+
+.blackandwhite:hover {
+    filter: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+    text-align: justify;
+}
+
+.w3-padding-32 p{
+    justify-content: left;
+    padding-left: 240px;
+}
+
+.w3-quarter:hover{
+    color:darkgreen;
+    filter: none;
+
+}

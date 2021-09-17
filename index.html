@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Karma", sans-serif
+    }
+
+    .w3-bar-block .w3-bar-item {
+        padding: 20px
+    }
+</style>
+
+<body>
+
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+        style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+        <a href="#teaching" onclick="w3_close()" class="w3-bar-item w3-button">Teaching</a>
+        <a href="#research" onclick="w3_close()" class="w3-bar-item w3-button">Research</a>
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About me</a>
+    </nav>
+
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto;">
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+            <div class="w3-left w3-padding-16" style="color:green;" id="menu-banner">Arnaud Zimmern | l'amour du savoir</div>
+        </div>
+    </div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+
+        <div class="w3-row-padding w3-padding-16 w3-center" id="teaching">
+            <br />
+            <br />
+            <h3>I love teaching</h3>
+            <br />
+            <div class="w3-quarter">
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vSIPcdxlip5L08bkqxJuJhOl8BEwOhWpiXFgckfxd9a3FoRd54nDMfL4r5XFe5FiwSBU-CcrmXr4aY1/pub">
+                    <img class="blackandwhite"
+                        src="https://images.unsplash.com/photo-1516967124798-10656f7dca28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80"
+                        alt="Heart" style="width:100%"></a>
+                <h3>Love, Loved Ones, <br /> & Shakespeare</h3>
+                <p>Let's dive deep into his famous sonnets and read them closely, even if we're far apart. In this
+                    12-day,
+                    winter-term course, we'll discuss Shakespeare’s writings on youth, age, beauty, love, and mortality
+                    & we'll use his sonnects to connect with others, to remedy the isolation and longing caused by the
+                    pandemic's social distance.</p>
+            </div>
+            <div class="w3-quarter">
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vRsAov1Ai0QTnggJKbTqIUJoPIX4mCnQYtysPMacDNbauvhRjZapttSmSmQXYReAF53F4qWl6bGNReq/pub">
+                    <img class="blackandwhite"
+                        src="https://images.unsplash.com/photo-1605900009749-b3cdb75ce9c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                        alt="Hammer" style="width:100%"></a>
+                <h3>Poetry as Craft: <br /> Brit Lit 1</h3>
+                <p>This course introduces you to great pre-modern works of poetry as feats of artisanal labor. But we'll
+                    focus on process, mistakes, and materials. Some of the key questions we'll ask are: what do we do
+                    with an artifact when we don't know who
+                    it’s author or craftsman is? How do we secure its meaning when anonymity and forgotten old words
+                    get in the way of accessing original intent?</p>
+            </div>
+            <div class="w3-quarter">
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vS8nvHU2du8CMvAKkDxSpG1k3KFnIoJz30ndQyywTj2enj0RYYfVVF1Deug21lZH__-wtm1OgP1o4rB/pub">
+                    <img class="blackandwhite"
+                        src="https://images.unsplash.com/photo-1546659934-038aab8f3f3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHN0ZXRob3Njb3BlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Stethoscope" style="width:100%"></a>
+                <h3>Medicine & the Poetic Ear</h3>
+                <p>What is the connection between how physicians heal and how poets soothe? The answer, in part, has to
+                    do with listening. If better listening makes for better care, then studying poetry (as a spoken
+                    practice, as
+                    performance) is a privileged space for training the dexterity of the ear, the compassion of the
+                    heart, and the faculty of memory.</p>
+            </div>
+            <div class="w3-quarter">
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vQbpgnLMVFOkQRG7aYZtu8BAjuB_AZktmJjtULYZ54UI6rejfx7cNhuyKEMgVM-yWxx4WVup9c55n4P/pub">
+                    <img class="blackandwhite"
+                        src="https://images.unsplash.com/photo-1561599889-3a241007cf08?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=335&q=80"
+                        alt="Joan of Arc" style="width:100%"></a>
+                <h3>Joan of Arc <br /> Rememburned</h3>
+                <p>How has one French Catholic virgin, peasant, and martyr become an icon for lesbian feminists,
+                    royalist nationalists, international Marxists, opponents of transhumanism, teen activists, online
+                    manga addicts, and so many other “-ists” and "-icts"? Just <em>how</em> is that possible? The answer
+                    has everything to do with the power of stories and the aura around "medieval times."</p>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vQnq8z3UoQjD3VjZBaXDbUaFyk7wnhl5dwi5IOjNNyf8hcvs89hikF-eM227kv5U5T89mM3bmwvZvG5/pub">
+                    <img class="blackandwhite"
+                        src="https://magazine.nd.edu/assets/191748/fullsize/hesburgh_on_time_mag_web.jpg" alt="Hesburgh"
+                        style="width:100%"></a>
+                <h3>What's the difference between God <br /> & Father Hesburgh?</h3>
+                <p>God is everywhere. Fr. Hesburgh is everywhere but Notre Dame. This Writing + Rhetoric course pays
+                    tribute to and examines the intellectual spirit of Notre Dame’s unforgettable leader and unrelenting
+                    global human rights activist. How did Fr.
+                    Hesburgh use rhetoric and how has he become rhetoric, on and off campus? </p>
+            </div>
+            <div class="w3-quarter">
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vSOYK0pWSz5eyMiM5YYvhuhlpecO174P3hwVR1GGF7o-eEOq_0Ia2M71dTNiiLIwiK4OXsaFkZ8_LAI/pub">
+                    <img class="blackandwhite"
+                        src="https://images.unsplash.com/photo-1524117074681-31bd4de22ad3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHRlYXJzJTIwam95fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Happy" style="width:100%"></a>
+                <h3>Laugh till you die: <br />Shakespeare through Comedy </h3>
+                <p>Shakespeare’s works are today's go-to literary text for comedies, spin-offs, ads, and spoofs. How and
+                    <em>why</em> does his comedy provide relief while putting things in relief? And how come so many of
+                    his tragedies (Othello, Romeo and Juliet, Hamlet) seem poised to make us laugh only to take a dark
+                    and violent turn?</p>
+            </div>
+            <div class="w3-quarter">
+                <a href="">
+                    <img class="blackandwhite"
+                        src="https://images.unsplash.com/photo-1582105665743-5f7e6ad6d24a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Apple" style="width:100%"></a>
+                <h3>The Perfect Epic, <br /> A Juicy Classic</h3>
+                <p>John Milton's <em>Paradise Lost</em>. <br /> Enough said. <br />If you haven't read it, come read it.
+                    This course will walk through his major poem, several sonnets, and some of his prose to give you a
+                    first taste -- will you be seduced?</p>
+            </div>
+            <div class="w3-quarter">
+                <a href="">
+                    <img class="blackandwhite"
+                        src="https://images.unsplash.com/photo-1549413468-075155d755f8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGNyb2lzc2FudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="Croissant" style="width:100%"></a>
+                <h3>La Chanson Française</h3>
+                <p>Le français s'apprend par la bouche - et pas juste en mangeant! Venez apprendre les grands classiques
+                    de la musique francophone et découvrez quelques bijoux rares et récents. Pas besoin d'être
+                    Pavarotti ou Beyoncé - venez comme vous êtes! (Psst: Y aura à manger aussi.)</p>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32 future">
+            <h3>That's all the teaching I've done so far!
+                <br>
+            </h3>
+            <p style="text-align:center">One day I'll fill these other tabs out...</p>
+            <div class="w3-bar">
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+                <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+            </div>
+
+            <a href="#research">
+                <p style="text-align:right">but, in the meantime, <br /> every teacher moonlights as a researcher <br />
+                    <img src="keyboard_double_arrow_down_black_24dp.svg" alt="ArrowDown">
+                </p>
+            </a>
+        </div>
+
+        <hr id="research">
+
+        <div class="w3-container w3-padding-32 w3-center">
+            <h3>and I love (re)searching</h3><br>
+            <h4 style="color:green"><b> especially Early Modern Literature</b></h4>
+            <h6 style="color:green"><i>(the really good stuff)</i></h6>
+            <h1>+</h1>
+
+            <p style="text-align: center;">the history of medicine <br> digital cultural preservation <br /> & many
+                other things </p>
+        </div>
+
+        <!-- First Photo Grid-->
+
+        <div class="w3-row-padding w3-padding- w3-center" id="teaching">
+            <div class="w3-quarter">
+                <a href="">
+                    <img class="blackandwhite"
+                        src="https://images.unsplash.com/photo-1565846894054-51426d448b96?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="Blood" style="width:100%"></a>
+                <h3>Mapping the Circulation of Circulation</h3>
+                <p>William Harvey published his discovery that blood circulates around the body in 1628. By the end of
+                    his life, most everyone in Europe and people as far away as Brazil believed him. How did his ideas
+                    get around? This mapping project using Palladio and Cytoscpae aims to revise years of bibliographic
+                    work by Geoffrey Keynes <em>et
+                        alia</em> and fashion a new, more complete image of how a little-known English physician became
+                    "our great Dr. Harvey".</p>
+            </div>
+            <div class="w3-quarter">
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vSCsAjE5WArvojnKd79IcDYrNBifY_ZCb1bTBWZSMYSkIh9iyji8A05UTWv1aAk_g/pub">
+                    <img class="blackandwhite"
+                        src="https://i.guim.co.uk/img/media/00ac456f1b4fdeedb02fb3f471ea561093e47cbc/1_0_2559_1536/master/2559.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=a73f12371b1cd50f1724394d9b3c99db"
+                        alt="Panaceas" style="width:100%"></a>
+                <h3>The Cure of All</h3>
+                <p>My first book project is about the problem of pain and the promises of cures. Early modern
+                    literature has a lot to offer by way of critique and by way of alternatives to what Dr. René Dubos
+                    famously called our utopian, panacean quest for eternal and instantaneous health. <em>The Cure of
+                        All</em> covers many of its most familiar names like Francis Bacon, Ben Jonson, Margaret
+                    Cavendish, John Milton, and Jean de la Fontaine but places them in
+                    unfamiliar territory: as critics of the history of medical progress.</p>
+            </div>
+            <div class="w3-quarter">
+                <a href="https://azimmern.github.io/therologia/">
+                    <img class="blackandwhite"
+                        src="https://upload.wikimedia.org/wikipedia/commons/e/e6/%27The_Kingdom_of_Sorceress_Circe%27_by_Angelo_Caroselli_and_Pseudo_Caroselli.jpg"
+                        alt="Beasts" style="width:100%"></a>
+                <h3>The Parly of Beasts</h3>
+                <p>James Howell's <em>Therologia</em> (1660) is a forgotten jewel of a text: this digital edition gives
+                    it a new shine, with notes and other helpful tips. Playful, misanthropic, at times even elegant,
+                    Howell hedges his bets for and against the project of civilization as Prince Pererius, the wandering
+                    humanist, goes in search of humanity on the enchanted island of Morphandra.</p>
+            </div>
+            <div class="w3-quarter">
+                <a href="http://digitalcavendish.org/resources/online-olios/">
+                    <img class="blackandwhite"
+                        src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Margaret_Cavendish%2C_Duchess_of_Newcastle%2C_by_Peter_Lely.jpg"
+                        alt="Cavendish" style="width:100%"></a>
+                <h3>The Online Olios</h3>
+                <p>Margaret Cavendish is arguably the most exciting female writer and thinker of Shakespeare and
+                    Milton's time. Haven't heard of her? Come learn from the world's up-and-coming experts. These yearly
+                    webinars, which I helped co-found with Mariah Spencer and Sophia Richardson, celebrate new inquiries
+                    into the work of 17th century
+                    England's eccentric, avant-garde Duchess of Newcastle.</p>
+            </div>
+
+
+        </div>
+
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <a href="https://sites.nd.edu/harriotsummerseries/">
+                    <img class="blackandwhite"
+                        src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2009/01/14/LunarMap2.article.jpg?width=300&quality=45&auto=format&fit=max&dpr=2&s=c2663bd6b2e0a72ce7f7ebbc4544dbec"
+                        alt="HarriotMoon" style="width:100%"></a>
+                <h3>How now, Thomas Harriot?</h3>
+                <p>This is a major project in digital cultural preservation: the notorious papers of Thomas Harriot
+                    (1560-1621), whose copious mathematical notes (over 8000 pages) were divided between archives,
+                    jumbled and disorganized by many hands, and never had any organization to begin with. What's in
+                    them? The discovery of the law of refraction, the earliest hand-drawn telescopic observations of the
+                    moon, an intimate portrait of a still-born anencephalous child, and lots and lots of anagrams and
+                    cyphers -- in a word: <em>mysteries</em>.
+                </p>
+            </div>
+            <div class="w3-quarter">
+                <a
+                    href="https://docs.google.com/presentation/d/e/2PACX-1vS_0MEzk_dVtwyz97WBL9O_9HnJGYSLF01YVH3e70b03oGodvqHqp1P9lz9XPpK2HFYFC-2GGuHzI8H/pub?start=true&loop=false&delayms=3000">
+                    <img class="blackandwhite"
+                        src="https://images.unsplash.com/photo-1518732714860-b62714ce0c59?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                        alt="3DPrint" style="width:100%"></a>
+                <h3>3D Printing the Renaissance</h3>
+                <p>Since Gutenberg, we've lived in one age of print. If a new age of print – 3D print – is upon us, can
+                    we use it to get back some of what we lost? This project is about using new tech to recreate old
+                    tech that otherwise stays behind museum glass. The goal is to build and share designs for objects
+                    and instruments like aludels, orories, and
+                    finitoria, that students can learn to make as well as examine closely.</p>
+            </div>
+            <div class="w3-quarter">
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vTKUvWiE_ZjBSN-3Cf8h7dopQJ5cB6Q5W_v8Du1KHM3H6UIVj3cCBXZ8bPzy5x7cUYXNSMDouL-ntLv/pub">
+                    <img class="blackandwhite"
+                        src="https://images.squarespace-cdn.com/content/v1/5970ed5729687fae2707b0b5/1506534860492-ZOYODTW7VTPZU1LEF2X7/iStock-640046356.jpg?format=1000w"
+                        alt="Donne" style="width:100%"></a>
+                <h3>Make Me New</h3>
+                <p>John Donne, poet extraordinaire, inspired countless painters, sculptors, librettists, & dancers
+                    across the globe, among them huge names like Marsden Hartley, Eric Gill, Leslie Dill, Clifford
+                    Rainey, Stanley Spencer, June Wayne. My second book - <em>Make Me New: John Donne's Other Lovers
+                        (1911-post 9/11)</em> - is about how they've taken up his work and what they've done with
+                    it. Pun very much intended. </p>
+            </div>
+            <div class="w3-quarter collaborate">
+
+                <h3 style="color:green">Got an idea? <br /> Want to collaborate? </h3>
+                <br />
+                <a href="#about">
+                    Get in touch below.
+                    <img src="keyboard_double_arrow_down_black_24dp.svg" alt="ArrowDown">
+                </a>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <hr id="about">
+
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32 w3-center">
+        <h3>A bit about me</h3><br>
+        <img src="257a2f0e- (1).JPG" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+        <div class="w3-padding-32">
+            <h4><b>Dr. Arnaud Zimmern</b></h4>
+            <h4>azimmern@nd.edu</h4>
+            <h6><i>Academic Positions</i></h6>
+            <p>2020-2022 | Postdoctoral Fellow, Navari Family Center for Digital Scholarship, University of Notre Dame
+            </p>
+
+            <p>2021-2022 | Program Facilitator, Digital Pedagogy Fellowship, Navari Family Center for Digital
+                Scholarship, University of Notre Dame</p>
+
+            <p>2020-2021 | Responsible Innovation Research Fellow, Center for Technology Ethics, University of Notre
+                Dame</p>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Footer -->
+    <footer class="w3-row-padding w3-padding-32">
+        <div class="w3-third">
+            <h3>FOOTER</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        </div>
+
+        <div class="w3-third">
+            <h3>BLOG POSTS</h3>
+            <ul class="w3-ul w3-hoverable">
+                <li class="w3-padding-16">
+                    <img src="workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+                    <span class="w3-large">Lorem</span><br>
+                    <span>Sed mattis nunc</span>
+                </li>
+                <li class="w3-padding-16">
+                    <img src="gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+                    <span class="w3-large">Ipsum</span><br>
+                    <span>Praes tinci sed</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w3-third w3-serif">
+            <h3>POPULAR TAGS</h3>
+            <p>
+                <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
+                    class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span
+                    class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+                <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span
+                    class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span
+                    class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+                <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span
+                    class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span
+                    class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+                <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span
+                    class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span
+                    class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+                <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span
+                    class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- End page content -->
+    </div>
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
