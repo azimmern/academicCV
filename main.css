@@ -78,3 +78,8 @@ p {
       justify-content: left;
       text-align:left;
   }
+
+  .languages {
+    justify-content: center;
+    text-align: center;
+  }
